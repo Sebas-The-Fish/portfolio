@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+h1{
+    color: white;
+    font-size: 25;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: white;
+}
+
+.front{
+
+    background-color: black;
+    h1{
+        color: white;
+        font-size: 10vw;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding: 5vw;
+    }
+    margin: 10px;
+    p{
+        color: black;
+        text-align: center;
+    }
+    .button{
+        margin: 12vw;
+        transition: all 1s ease-in-out;
+        h1{
+            color: white;
+            font-size: 8vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+            padding: 2vw;
+        } 
+    }
+    .button:hover{
+        background-color: rgb(41, 121, 121);
+        h1{
+            color: black;
+            text-align: center;
+        }
+        border-radius: 1vw;
+        transform: scale(1.01);
+        cursor: pointer;
+    }
+}
